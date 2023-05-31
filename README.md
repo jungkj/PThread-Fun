@@ -1,3 +1,9 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/k1jYGnrr)
-# a5-template
-Template for CSCI3362 Assignment 5.
+# Matrix Multiplication
+
+Turned a single threaded matrix multiplication program into a multi-threaded one where the main thread spawns N hardware threads and each thread must handle as equal share with the other threads. 
+
+# Hash Table
+
+hashtable.h and hashtable.c contain code for the hash table.  This particular hash table uses C-strings as keys and integers as values in each (key,value) item.  single_thread_test.c contains code that inserts a large number of keys into the hash table then searches the hash table for those keys to ensure that they were added correctly.  Both the inserting and search tasks are timed. <br/> 
+
+I have made it so that multiple threads can simultaneously access the hashtable at the same time.
